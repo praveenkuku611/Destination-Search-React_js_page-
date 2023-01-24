@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-left: 40px;
+}
+input {
+  margin-left: 30px;
+  border-style: none;
+  border-color: #ffffff;
+  background-color: #f1f5f9;
+  outline: none;
+}
+.bg-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.input_box {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #f1f5f9;
+}
+img {
+  height: 22px;
+  margin-top: 5px;
+}
